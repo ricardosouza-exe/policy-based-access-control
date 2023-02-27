@@ -1,0 +1,203 @@
+_type: export
+__export_format: 4
+__export_date: 2023-02-27T02:39:21.786Z
+__export_source: insomnia.desktop.app:v2022.7.5
+resources:
+  - _id: req_13d2ef3d3cac4735a8d3b28a65c69e6d
+    parentId: wrk_977c8f11224746b5a8e335683751561b
+    modified: 1677465449616
+    created: 1677465421358
+    url: http://localhost:4000/users
+    name: List users
+    description: ""
+    method: GET
+    body: {}
+    parameters: []
+    headers:
+      - id: pair_cebf23cf1f9949aabd3562901b543e86
+        name: ""
+        value: ""
+        description: ""
+    authentication:
+      type: bearer
+      token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhY2Nlc3NJZCI6IjYzZmMxNzJmYmI5NTQ4Yjg5MDA0NTc3NCIsImlhdCI6MTY3NzQ2NTQxNH0.39EstO6J3v_6HEzpCIgvXhPSsdYn8Zev10haC-TkNtw
+    metaSortKey: -1677465421358
+    isPrivate: false
+    settingStoreCookies: true
+    settingSendCookies: true
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingFollowRedirects: global
+    _type: request
+  - _id: wrk_977c8f11224746b5a8e335683751561b
+    parentId: null
+    modified: 1677464570027
+    created: 1677464570027
+    name: PBAC
+    description: ""
+    scope: collection
+    _type: workspace
+  - _id: req_378ecefa0e83437f8c7a32f77a272fdf
+    parentId: wrk_977c8f11224746b5a8e335683751561b
+    modified: 1677465472942
+    created: 1677465466953
+    url: http://localhost:4000/users
+    name: Create user
+    description: ""
+    method: POST
+    body: {}
+    parameters: []
+    headers:
+      - id: pair_cebf23cf1f9949aabd3562901b543e86
+        name: ""
+        value: ""
+        description: ""
+    authentication:
+      type: bearer
+      token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhY2Nlc3NJZCI6IjYzZmMxNzJmYmI5NTQ4Yjg5MDA0NTc3NCIsImlhdCI6MTY3NzQ2NTQxNH0.39EstO6J3v_6HEzpCIgvXhPSsdYn8Zev10haC-TkNtw
+    metaSortKey: -1677465000414
+    isPrivate: false
+    settingStoreCookies: true
+    settingSendCookies: true
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingFollowRedirects: global
+    _type: request
+  - _id: req_4f44d2a334d44756abbfc4844be67a54
+    parentId: wrk_977c8f11224746b5a8e335683751561b
+    modified: 1677465493526
+    created: 1677465481121
+    url: http://localhost:4000/users/123
+    name: Update user
+    description: ""
+    method: PUT
+    body: {}
+    parameters: []
+    headers:
+      - id: pair_cebf23cf1f9949aabd3562901b543e86
+        name: ""
+        value: ""
+        description: ""
+    authentication:
+      type: bearer
+      token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhY2Nlc3NJZCI6IjYzZmMxNzJmYmI5NTQ4Yjg5MDA0NTc3NCIsImlhdCI6MTY3NzQ2NTQxNH0.39EstO6J3v_6HEzpCIgvXhPSsdYn8Zev10haC-TkNtw
+    metaSortKey: -1677464789942
+    isPrivate: false
+    settingStoreCookies: true
+    settingSendCookies: true
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingFollowRedirects: global
+    _type: request
+  - _id: req_2fc189b7864f4af4afaa66c50e83347d
+    parentId: wrk_977c8f11224746b5a8e335683751561b
+    modified: 1677465508423
+    created: 1677465501943
+    url: http://localhost:4000/users/123
+    name: Read user
+    description: ""
+    method: GET
+    body: {}
+    parameters: []
+    headers:
+      - id: pair_cebf23cf1f9949aabd3562901b543e86
+        name: ""
+        value: ""
+        description: ""
+    authentication:
+      type: bearer
+      token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhY2Nlc3NJZCI6IjYzZmMxNzJmYmI5NTQ4Yjg5MDA0NTc3NCIsImlhdCI6MTY3NzQ2NTQxNH0.39EstO6J3v_6HEzpCIgvXhPSsdYn8Zev10haC-TkNtw
+    metaSortKey: -1677464684706
+    isPrivate: false
+    settingStoreCookies: true
+    settingSendCookies: true
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingFollowRedirects: global
+    _type: request
+  - _id: req_93821f9ecb444b92a483326527f0ca2c
+    parentId: wrk_977c8f11224746b5a8e335683751561b
+    modified: 1677465525403
+    created: 1677465523049
+    url: http://localhost:4000/users/123
+    name: Delete user
+    description: ""
+    method: DELETE
+    body: {}
+    parameters: []
+    headers:
+      - id: pair_cebf23cf1f9949aabd3562901b543e86
+        name: ""
+        value: ""
+        description: ""
+    authentication:
+      type: bearer
+      token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhY2Nlc3NJZCI6IjYzZmMxNzJmYmI5NTQ4Yjg5MDA0NTc3NCIsImlhdCI6MTY3NzQ2NTQxNH0.39EstO6J3v_6HEzpCIgvXhPSsdYn8Zev10haC-TkNtw
+    metaSortKey: -1677464632088
+    isPrivate: false
+    settingStoreCookies: true
+    settingSendCookies: true
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingFollowRedirects: global
+    _type: request
+  - _id: req_07007906b43a4707a2bcb24591e42e29
+    parentId: wrk_977c8f11224746b5a8e335683751561b
+    modified: 1677465214944
+    created: 1677464579470
+    url: http://localhost:4000/login
+    name: Login
+    description: ""
+    method: POST
+    body:
+      mimeType: application/json
+      text: |-
+        {
+        	"username": "admin",
+        	"password": "admin"
+        }
+    parameters: []
+    headers:
+      - name: Content-Type
+        value: application/json
+    authentication: {}
+    metaSortKey: -1677464579470
+    isPrivate: false
+    settingStoreCookies: true
+    settingSendCookies: true
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingFollowRedirects: global
+    _type: request
+  - _id: env_2b671c93f8dae27fd3e87212dbc6a6ac6f4db80e
+    parentId: wrk_977c8f11224746b5a8e335683751561b
+    modified: 1677464570031
+    created: 1677464570031
+    name: Base Environment
+    data: {}
+    dataPropertyOrder: null
+    color: null
+    isPrivate: false
+    metaSortKey: 1677464570031
+    _type: environment
+  - _id: jar_2b671c93f8dae27fd3e87212dbc6a6ac6f4db80e
+    parentId: wrk_977c8f11224746b5a8e335683751561b
+    modified: 1677464570032
+    created: 1677464570032
+    name: Default Jar
+    cookies: []
+    _type: cookie_jar
+  - _id: spc_b801d253d4d640cfaeb05d77b2b60c44
+    parentId: wrk_977c8f11224746b5a8e335683751561b
+    modified: 1677464570028
+    created: 1677464570028
+    fileName: PBAC
+    contents: ""
+    contentType: yaml
+    _type: api_spec
